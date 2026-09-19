@@ -1,3 +1,4 @@
+
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 class GreeterHandler(BaseHTTPRequestHandler):
@@ -9,7 +10,7 @@ class GreeterHandler(BaseHTTPRequestHandler):
             <title>Greeter</title>
         </head>
         <body>
-            <h1>Hello, Warda!</h1>
+            <h1>Hi, Warda!</h1>
             <p>Have a great day!</p>
         </body>
         </html>
